@@ -1,0 +1,25 @@
+https://dev.to/ionabrabender/creating-a-portfolio-website-using-github-pages-and-react-part-2-16e1
+
+1) create an empty Github Repository (not even a readme)
+2) Creating Your Initial React App
+  a) npm init react-app <whatever-you-want-to-name-the-folder>
+3) Install GitHub Pages as a Dev-Dependency
+  a) npm install gh-pages --save-dev
+4) Update Your package.json File
+  a) add a hompage: "homepage": "http://[username].github.io/"
+  b) In script section:
+      i)"predeploy": "npm run build"
+     ii)"deploy": "gh-pages -d build"
+5) push to github
+  a) git init
+  b) git add .
+  c) git commit -m "first commit"
+  d) git branch -M main
+  e) git remote add origin <repository URL>
+  f) git push -u origin main
+
+6) deploy
+   a) npm run deploy
+
+7) Update Your Repository Settings
+   a) On settings of repository set it so that it builds on the gh-pages branch
