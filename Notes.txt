@@ -1,0 +1,20 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CMake Notes~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1) Put CMakeList.txt into the directory with all your .cpp, .h, etc.
+2) Create a 'build' directory
+3) cd build
+4) Inside build you want to type 'cmake ..' and a make list will generate for you
+5) Make sure everytime you 'cmake ..', you want to do 'rm -r *' IN THE 'build' DIRECTORY!!!!!!!!!!!!!!!!!
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~C Complier~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1) EX: gcc -g -Wall -ohello hello.c
+2) c++: g++ -std=c++11 your_file.cpp -o main  //This is for version c++11
+        g++ your_file.cpp -o main
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~CSIF~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1) ssh trevorng@pc15.cs.ucdavis.edu
+
+
+
+
+g++ -std=c++11 your_file.cpp -o main

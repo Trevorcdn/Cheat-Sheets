@@ -1,0 +1,10 @@
+~Clone a repo
+    git clone <url>
+    
+~how to add all files in current dir
+    git add -A
+
+~how to commit and push
+    1)git commit -m "Add message here"
+    2)git push
+
